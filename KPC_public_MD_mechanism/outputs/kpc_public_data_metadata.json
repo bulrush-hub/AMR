@@ -1,0 +1,33 @@
+{
+  "source": {
+    "zenodo_doi": "10.5281/zenodo.7114981",
+    "zenodo_license": "CC BY 4.0",
+    "rcsb_pdb_ids": [
+      "5UL8",
+      "7TB7",
+      "7TBX",
+      "7TC1",
+      "4ZBE",
+      "8AKL"
+    ]
+  },
+  "method": {
+    "bootstrap_resamples": 20000,
+    "random_seed": 20260820,
+    "barrier_field": "ene_barrier",
+    "feature_units": "angstrom",
+    "barrier_units": "kcal/mol"
+  },
+  "archive_md5": {
+    "2.enes.tar.gz": "2bdb00cb6bd463713359a911dec28a11",
+    "3.datasets.tar.gz": "76f646c858d2946135b00f152a9c129e",
+    "4.code.tar.gz": "7c8080e18fc82d457c5012435f1102c1"
+  },
+  "limitations": [
+    "The deposited compact arrays are MD-derived snapshots, not full classical-MD trajectories.",
+    "The coordinate archives contain QM/MM reaction paths and were not required for these summaries.",
+    "Crystal disorder supports conformational heterogeneity but is not itself an MD observable.",
+    "The reported barriers are single-point QM/MM potential-energy differences, not solution free-energy barriers.",
+    "The simple bootstrap treats snapshots as independent and may underestimate uncertainty if the MD-derived samples are correlated."
+  ]
+}
