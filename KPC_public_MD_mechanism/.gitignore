@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded public inputs are reproducible from the documented DOI/PDB IDs.
+data/raw/public_kpc/*
+!data/raw/public_kpc/README.md
+
